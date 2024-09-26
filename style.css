@@ -1,0 +1,293 @@
+/*
+author:denish thapa
+theme: restaurant fod order
+version: 1.0
+*/
+*{
+    margin: 0 0;
+    padding:0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    width: 90%;
+  
+    margin: 0 auto;
+    padding: 1%;
+
+    
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    width: 40%;
+}
+.btn-primary{
+    background-color: pink;
+    border-radius: 5px;
+
+}
+a:hover{
+    color: pink;
+}
+.text-right{
+    text-align: right;
+}  
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+    float: none;
+} 
+h1{
+    color: rgba(0, 0, 0, 0.592);
+} 
+h3{
+    font-size: large;
+}
+
+
+
+/*
+fornavbar section*/
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+.logo{
+    margin: 0;
+    width: 7%;
+   
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 5px;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    color:white;
+}
+/*
+css for navbar section
+*/
+
+
+.menu{
+    
+    line-height: 60px;
+    width: 50%;
+    padding: 2%;
+    
+    
+    
+    
+    
+    
+}
+
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    padding: 2%;
+    width: 90%;
+    
+    
+   
+   
+    
+    
+    
+}
+.menu  ul li{
+    width: 20%;
+    padding: 2%;
+    margin: 1%;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+    gap: 1%;
+    
+    
+}
+/* 
+food search section
+*/
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6% 0;
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.food-search input[type="submit"]{
+    width: 10%;
+    padding: 1%;
+    background-color: pink;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.food-search input[type="submit"]:hover{
+    background-color:lightpink;
+}
+.categories{
+    margin: 2% 0;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+}
+.box1{
+    width: 20%;
+   
+    
+  
+
+
+}
+.explore-food{
+    background-color: rgba(209, 202, 202, 0.364);
+}
+
+
+
+    
+    
+    
+
+.box2{
+    width: 40%;
+    border-radius: 8px;
+    background-color: white;
+    padding: 2%;
+    margin: 2%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    
+   
+}
+.box2 img{
+    width: 25%;
+    border-radius: 5px;
+}
+.box2 .des{
+    display: grid;
+
+
+}
+
+p.detail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size:15px ;
+}
+button{
+    background-color: pink;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+
+}
+.social ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+.social ul li{
+    margin-right: 1%;
+}
+/* css for mobile size or small size
+*/
+@media only screen and (max-width:768px){
+    .nav{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo{
+        width: 80%;
+       
+        margin: 1% auto;
+    }
+    .menu{
+        justify-content: center;
+        align-items: center;
+    }
+    .menu ul{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        
+        
+    }
+    .menu ul li{
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+    .food-search input[type="search"]{
+        width:100%;
+        margin-bottom: 2%;
+
+    }
+    .food-search input[type="submit"]{
+        width: 80%;
+    }
+    .box{
+        display: block;
+        justify-content: center;
+        padding: 1%;
+    }
+    .box1{
+        width: 90%;
+        margin: 5%;
+
+    }
+    .box2{
+        width: 90%;
+        border-radius: 8px;
+        background-color: white;
+        padding: 2%;
+        margin: 2%;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+        
+       
+    }
+
+
+}
